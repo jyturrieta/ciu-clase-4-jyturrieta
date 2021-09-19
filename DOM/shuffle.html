@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="source">
+        Another one bites the dust
+    </div>
+    <div id="destination">
+        Killer Queen
+    </div>
+    
+    <script>
+        var $source = document.getElementById("source").textContent
+        var $destination = document.getElementById("destination").textContent
+        document.getElementById("destination").textContent = $source
+        document.getElementById("source").textContent = $destination        
+    </script>
+</body>
+</html>
