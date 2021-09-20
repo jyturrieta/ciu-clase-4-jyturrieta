@@ -1,7 +1,8 @@
 var body = document.querySelector("body")
 
-var agregarTexto = function(){
+var seEjecutaEnEvento = function(){
+    body.classList.toggle("color")
     body.insertAdjacentHTML("beforeend", "<p>MARADOOOOOO</p>")
 }
 
-document.querySelector("body").addEventListener("click", agregarTexto)
+document.querySelector("body").addEventListener("click", seEjecutaEnEvento)
