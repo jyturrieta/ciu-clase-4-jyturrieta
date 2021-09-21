@@ -5,5 +5,3 @@ for(var i = 0; i < parrafos.length; i++){
         this.classList.toggle("resaltador")
     })
 }
-
-var parrafos = document.querySelectorAll("p")

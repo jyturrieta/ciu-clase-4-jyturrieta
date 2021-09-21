@@ -5,4 +5,4 @@ var seEjecutaEnEvento = function(){
     body.insertAdjacentHTML("beforeend", "<p>BEEEEEEP</p>")
 }
 
-document.querySelector("body").addEventListener("click", seEjecutaEnEvento)
+body.addEventListener("click", seEjecutaEnEvento)
