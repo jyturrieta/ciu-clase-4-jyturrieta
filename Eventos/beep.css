@@ -1,3 +1,12 @@
 .color{
     background-color: lightseagreen;
 }
+
+button:hover{
+    color: red;
+    background-color: rebeccapurple;
+}
+
+button:active{
+    background-color: pink;
+}
